@@ -85,6 +85,7 @@
 
 #define MSM_PMEM_SF_SIZE        0x4000000 /* 64 Mbytes */
 #define MSM_PMEM_ADSP_SIZE	0x239C000
+#define MSM_PMEM_ADSP2_SIZE	0x664000 /* ((1408 * 792 * 1.5) Align 2K) * 2 * 2 */
 #define MSM_PMEM_AUDIO_SIZE	0x239000
 
 #define MSM_PMEM_ADSP_BASE	(0x40400000)
